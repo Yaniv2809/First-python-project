@@ -33,9 +33,9 @@ A classic "High/Low" guessing game.
 * **Logic:** The computer selects a random number within a range based on the chosen difficulty level.
 * **Challenge:** The user must guess the number. The game provides hints ("Too high", "Too low") to guide the user.
 
-### 3. Rock, Paper, Scissors (`rps_game.py`)
-Play the classic hand game against the computer.
-* **Logic:** Uses random choice generation and boolean logic to determine the winner based on game rules.
+### 3. Math quiz (`math_game.py`)
+Answer math qustions and get score
+
 
 ---
 
@@ -58,6 +58,5 @@ World_Of_Games/
 ├── main.py             # The entry point / Game Manager
 ├── memory_game.py      # Logic for the Memory Game
 ├── guess_game.py       # Logic for the Guess Game
-├── rps_game.py         # Logic for Rock, Paper, Scissors
-├── score.py            # Handles reading/writing scores to a file
+├── math_game.py         # Logic for Math game ├── score.py            # Handles reading/writing scores to a file
 └── Scores.txt          # Stores the user's total score
